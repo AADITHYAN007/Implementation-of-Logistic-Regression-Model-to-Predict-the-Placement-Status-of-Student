@@ -67,6 +67,8 @@ print("Confusion Matrix:\n", confusion)
 
 classification_report_output = classification_report(y_test, y_pred)
 print("Classification Report:\n", classification_report_output)
+print("Prediction of LR:")
+lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 
 
 
@@ -87,7 +89,8 @@ LOGISTIC REGRESSION
 CONFUSION MATRIX
 <img width="1095" height="106" alt="Screenshot 2026-02-04 093142" src="https://github.com/user-attachments/assets/66d70bd6-f5c3-4a71-bd67-4f34ee9873a1" />
 CLASSIFICATION REPORT & PREDICTION
-<img width="1097" height="207" alt="Screenshot 2026-02-04 093216" src="https://github.com/user-attachments/assets/b608b984-763c-4c72-b4ce-ac7539d8018c" />
+<img width="585" height="405" alt="Screenshot 2026-02-04 094809" src="https://github.com/user-attachments/assets/a77b470d-f551-4897-bddd-4723d18c75c4" />
+
 
 
 
